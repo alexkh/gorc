@@ -13,13 +13,13 @@ This software is written in Javascript and depends on:
 	Linux
 
 	GrandOrgue software, which is a free sampler of many freely available
-organ sample libraries.
+	organ sample libraries.
 
 	NodeJs
 
 	NPM
 
-	Nodemon
+	Nodemon (optional: otherwise use "node index.js" to start)
 
 	jq
 
@@ -40,17 +40,19 @@ Just unpack this into a directory as a user (not as root), then change into
 the directory gorc that contains package.json. Depending on your nodejs setup,
 you might need to run:
 
-npm i
+	npm i
 
 to install missing nodejs components. Then, to start the server, start GrandOrgue
 first, then run:
 
-npm start
+	npm start
+or, if you don't have or don't want to use nodemon:
+	node index.js
 
 On the client, which is your tablet/phone/pc open a web browser and type the
 address of your server computer and port 3060, for example:
 
-192.168.1.3:3060
+	192.168.1.3:3060
 
 The GUI of the GrandOrgue screen should appear in the browser window. Clicking on
 the black area should toggle the FullScreen mode of the browser. You can now
