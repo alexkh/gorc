@@ -19,6 +19,8 @@ This software is written in Javascript and depends on:
 
 	NPM
 
+	ws - node package for websocket communication
+
 	Nodemon (optional: otherwise use "node index.js" to start)
 
 	jq - jason parser cli app
