@@ -21,7 +21,9 @@ This software is written in Javascript and depends on:
 
 	Nodemon (optional: otherwise use "node index.js" to start)
 
-	jq
+	jq - jason parser cli app
+
+	grim - screenshot taking cli app
 
 	Sway Window Manager or a Sway-based window manager that supports swaymsg
 
